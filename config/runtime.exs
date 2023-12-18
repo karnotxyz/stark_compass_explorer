@@ -110,13 +110,8 @@ if config_env() == :prod do
     server: true,
     url: [host: host, port: 443, scheme: "https"],
     check_origin: [
-      "https://madaraexplorer.com",
-      "https://www.madaraexplorer.com",
-      "https://madaraexplorer.lambdaclass.com",
-      "https://testing.madaraexplorer.com",
-      "https://starkcompass.com",
-      "https://www.starkcompass.com",
-      "https://testing.starkcompass.com",
+      "http://paradex-explorer.karnot.xyz/",
+      "https://paradex-explorer.karnot.xyz/",
       "https://#{host}:#{port}",
       "http://#{host}:#{port}"
     ],
