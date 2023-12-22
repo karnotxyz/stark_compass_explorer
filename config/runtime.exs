@@ -110,8 +110,8 @@ if config_env() == :prod do
     server: true,
     url: [host: host, port: 443, scheme: "https"],
     check_origin: [
-      "http://paradex-explorer.karnot.xyz/",
-      "https://paradex-explorer.karnot.xyz/",
+      "http://paradex-explorer.karnot.xyz",
+      "https://paradex-explorer.karnot.xyz",
       "https://#{host}:#{port}",
       "http://#{host}:#{port}"
     ],
